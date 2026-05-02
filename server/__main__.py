@@ -19,20 +19,21 @@ env_token = "github_pat_11AFN7FGY0Lg5wwfZl6aYd_sL0zdPBHviil4LUpMkGH7cuN86Zc2LFav
 
 if __name__ == "__main__":
     cursor.execute(
-        '''CREATE TABLE books (name text, author text, read text)'''
+        '''CREATE TABLE work_orders (name text, author text, read text)'''
     )
 
     for bookname, bookauthor, hasread in default_books:
         try:
             cursor.execute(
-                'INSERT INTO books values (?, ?, ?)',
+                'INSERT INTO work_orders values (?, ?, ?)',
                 (bookname, bookauthor, 'true' if hasread else 'false')
             )
 
         except Exception as err:
             print(f'[!] Error Occurred: {err}')
 
-    flaskapp.run('0.0.0.0', debug=bool(os.environ.get('DEBUG', False)))
+    port = int(os.environ.get('PORT', 5000))
+    flaskapp.run('0.0.0.0', port=port, debug=bool(os.environ.get('DEBUG', False)))
     
     cursor.close()
     database.close()
