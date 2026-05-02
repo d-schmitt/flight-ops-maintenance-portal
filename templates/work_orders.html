@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Flight Ops Maintenance Portal</title>
+</head>
+<body>
+    <h1>Flight Ops Maintenance Portal</h1>
+    <p>Internal Maintenance Tracking System &mdash; EcoLift Aerospace</p>
+    <ul id="work_orders">
+    {% for work_order in work_orders %}
+        <li>[{{ work_order.name }}] &mdash; Aircraft: {{ work_order.author }}</li>
+    {% endfor %}
+    </ul>
+</body>
+</html>
