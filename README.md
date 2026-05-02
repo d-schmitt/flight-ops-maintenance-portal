@@ -1,6 +1,6 @@
 # Flight Ops Maintenance Portal
 
-EcoLift Aerospace (Hamburg, Germany) uses this internal web application to track open and completed aircraft maintenance work orders across its regional fleet. Technicians can query tasks by work-order description or aircraft registration, and supervisors use the search interface to monitor task completion status in real time.
+EcoLift Aerospace (Hamburg, Germany) uses this internal web application to track open and completed aircraft maintenance work orders across its fleet. Technicians can query tasks by work-order description or aircraft registration, and supervisors use the search interface to monitor task completion status in real time.
 
 > ⚠️ **This repository contains intentional security vulnerabilities for demonstration and training purposes. Do not deploy to production or expose to untrusted networks.**
 
