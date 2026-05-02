@@ -1,0 +1,349 @@
+{
+    "spdxVersion": "SPDX-2.3",
+    "dataLicense": "CC0-1.0",
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "name": "com.github.d-schmitt/flight-ops-maintenance-portal",
+    "documentNamespace": "https://spdx.org/spdxdocs/protobom/55348a36-33cf-48c5-9032-6f06591957d2",
+    "creationInfo": {
+        "creators": [
+            "Tool: protobom-v0.0.0-20260501142040-d2b2a82f98d2+dirty",
+            "Tool: GitHub.com-Dependency-Graph"
+        ],
+        "created": "2026-05-02T13:16:28Z"
+    },
+    "packages": [
+        {
+            "name": "python-dotenv",
+            "SPDXID": "SPDXRef-pypi-python-dotenv-1.2.2-f12086",
+            "versionInfo": "1.2.2",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause",
+            "copyrightText": "Copyright (c) 2014, Saurabh Kumar",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/python-dotenv@1.2.2"
+                }
+            ]
+        },
+        {
+            "name": "werkzeug",
+            "SPDXID": "SPDXRef-pypi-werkzeug-3.1.8-10a639",
+            "versionInfo": "3.1.8",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/werkzeug@3.1.8"
+                }
+            ]
+        },
+        {
+            "name": "click",
+            "SPDXID": "SPDXRef-pypi-click-8.3.3-0e24e6",
+            "versionInfo": "8.3.3",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/click@8.3.3"
+                }
+            ]
+        },
+        {
+            "name": "jinja2",
+            "SPDXID": "SPDXRef-pypi-jinja2-3.1.6-89dfa4",
+            "versionInfo": "3.1.6",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+            "copyrightText": "(c) Copyright 2008 by http://domain.invalid/>, copyright 2007 Pallets, Copyright 2007 Pallets",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/jinja2@3.1.6"
+                }
+            ]
+        },
+        {
+            "name": "itsdangerous",
+            "SPDXID": "SPDXRef-pypi-itsdangerous-2.2.0-f17680",
+            "versionInfo": "2.2.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+            "copyrightText": "copyright 2011 Pallets, Copyright 2011 Pallets",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/itsdangerous@2.2.0"
+                }
+            ]
+        },
+        {
+            "name": "flask",
+            "SPDXID": "SPDXRef-pypi-flask-3.1.3-667534",
+            "versionInfo": "3.1.3",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause",
+            "copyrightText": "(c) Copyright 2010, Copyright (c) 2015 CERN., copyright 2010 Pallets, Copyright 2010 Pallets",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/flask@3.1.3"
+                }
+            ]
+        },
+        {
+            "name": "blinker",
+            "SPDXID": "SPDXRef-pypi-blinker-1.9.0-83bb47",
+            "versionInfo": "1.9.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "MIT",
+            "copyrightText": "copyright 2010 Jason Kirtland, Copyright 2010 Jason Kirtland",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/blinker@1.9.0"
+                }
+            ]
+        },
+        {
+            "name": "markupsafe",
+            "SPDXID": "SPDXRef-pypi-markupsafe-3.0.3-e3db05",
+            "versionInfo": "3.0.3",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-3-Clause",
+            "copyrightText": "copyright 2010 Pallets, Copyright 2010 Pallets",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/markupsafe@3.0.3"
+                }
+            ]
+        },
+        {
+            "name": "werkzeug",
+            "SPDXID": "SPDXRef-pypi-werkzeug-2.0.2-f6bfc8",
+            "versionInfo": "2.0.2",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+            "copyrightText": "copyright 2007 Pallets, Copyright 2007 Pallets, Copyright 2010 Canonical Ltd.",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/werkzeug@2.0.2"
+                }
+            ]
+        },
+        {
+            "name": "flask",
+            "SPDXID": "SPDXRef-pypi-flask-2.0.2-a39303",
+            "versionInfo": "2.0.2",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+            "copyrightText": "(c) Copyright 2010 by http://domain.invalid/'>, Copyright (c) 2015 CERN., copyright 2010 Pallets, Copyright 2010 Pallets",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/flask@2.0.2"
+                }
+            ]
+        },
+        {
+            "name": "click",
+            "SPDXID": "SPDXRef-pypi-click-8.0.1-6e47f4",
+            "versionInfo": "8.0.1",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+            "copyrightText": "Copyright 2001-2006 Gregory P. Ward, Copyright 2002-2006 Python Software Foundation, copyright 2014 Pallets, Copyright 2014 Pallets",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/click@8.0.1"
+                }
+            ]
+        },
+        {
+            "name": "python-dotenv",
+            "SPDXID": "SPDXRef-pypi-python-dotenv-0.19.0-547b2e",
+            "versionInfo": "0.19.0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+            "copyrightText": "Copyright (c) 2013, Jacob Kaplan-Moss, Copyright (c) 2013, Ted Tieken, Copyright (c) 2014, Saurabh Kumar",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/python-dotenv@0.19.0"
+                }
+            ]
+        },
+        {
+            "name": "markupsafe",
+            "SPDXID": "SPDXRef-pypi-markupsafe-2.0.1-aebeb2",
+            "versionInfo": "2.0.1",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+            "copyrightText": "copyright 2010 Pallets, Copyright 2010 Pallets",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/markupsafe@2.0.1"
+                }
+            ]
+        },
+        {
+            "name": "itsdangerous",
+            "SPDXID": "SPDXRef-pypi-itsdangerous-2.0.1-a155b6",
+            "versionInfo": "2.0.1",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-2-Clause",
+            "copyrightText": "copyright 2011 Pallets, Copyright 2011 Pallets",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/itsdangerous@2.0.1"
+                }
+            ]
+        },
+        {
+            "name": "jinja2",
+            "SPDXID": "SPDXRef-pypi-jinja2-3.0.2-2c46dd",
+            "versionInfo": "3.0.2",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "BSD-2-Clause AND BSD-3-Clause",
+            "copyrightText": "(c) Copyright 2008 by http://domain.invalid/'>, copyright 2007 Pallets, Copyright 2007 Pallets",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:pypi/jinja2@3.0.2"
+                }
+            ]
+        },
+        {
+            "name": "com.github.d-schmitt/flight-ops-maintenance-portal",
+            "SPDXID": "SPDXRef-github-d-schmitt-flight-ops-maintenance-portal-main-aa556a",
+            "versionInfo": "main",
+            "downloadLocation": "git+https://github.com/d-schmitt/flight-ops-maintenance-portal",
+            "filesAnalyzed": false,
+            "licenseDeclared": "MIT",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceType": "purl",
+                    "referenceLocator": "pkg:github/d-schmitt/flight-ops-maintenance-portal@main"
+                }
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-github-d-schmitt-flight-ops-maintenance-portal-main-aa556a",
+            "relatedSpdxElement": "SPDXRef-pypi-python-dotenv-1.2.2-f12086",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-d-schmitt-flight-ops-maintenance-portal-main-aa556a",
+            "relatedSpdxElement": "SPDXRef-pypi-itsdangerous-2.2.0-f17680",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-d-schmitt-flight-ops-maintenance-portal-main-aa556a",
+            "relatedSpdxElement": "SPDXRef-pypi-flask-3.1.3-667534",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-d-schmitt-flight-ops-maintenance-portal-main-aa556a",
+            "relatedSpdxElement": "SPDXRef-pypi-werkzeug-2.0.2-f6bfc8",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-d-schmitt-flight-ops-maintenance-portal-main-aa556a",
+            "relatedSpdxElement": "SPDXRef-pypi-click-8.0.1-6e47f4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-d-schmitt-flight-ops-maintenance-portal-main-aa556a",
+            "relatedSpdxElement": "SPDXRef-pypi-jinja2-3.1.6-89dfa4",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-d-schmitt-flight-ops-maintenance-portal-main-aa556a",
+            "relatedSpdxElement": "SPDXRef-pypi-itsdangerous-2.0.1-a155b6",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-d-schmitt-flight-ops-maintenance-portal-main-aa556a",
+            "relatedSpdxElement": "SPDXRef-pypi-werkzeug-3.1.8-10a639",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-d-schmitt-flight-ops-maintenance-portal-main-aa556a",
+            "relatedSpdxElement": "SPDXRef-pypi-click-8.3.3-0e24e6",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-d-schmitt-flight-ops-maintenance-portal-main-aa556a",
+            "relatedSpdxElement": "SPDXRef-pypi-markupsafe-3.0.3-e3db05",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-d-schmitt-flight-ops-maintenance-portal-main-aa556a",
+            "relatedSpdxElement": "SPDXRef-pypi-blinker-1.9.0-83bb47",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-d-schmitt-flight-ops-maintenance-portal-main-aa556a",
+            "relatedSpdxElement": "SPDXRef-pypi-flask-2.0.2-a39303",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-d-schmitt-flight-ops-maintenance-portal-main-aa556a",
+            "relatedSpdxElement": "SPDXRef-pypi-python-dotenv-0.19.0-547b2e",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-d-schmitt-flight-ops-maintenance-portal-main-aa556a",
+            "relatedSpdxElement": "SPDXRef-pypi-markupsafe-2.0.1-aebeb2",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-github-d-schmitt-flight-ops-maintenance-portal-main-aa556a",
+            "relatedSpdxElement": "SPDXRef-pypi-jinja2-3.0.2-2c46dd",
+            "relationshipType": "DEPENDS_ON"
+        },
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-github-d-schmitt-flight-ops-maintenance-portal-main-aa556a",
+            "relationshipType": "DESCRIBES"
+        }
+    ]
+}

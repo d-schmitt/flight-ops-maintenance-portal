@@ -13,8 +13,9 @@ default_books = [
     ("Landing gear actuator inspection", "D-AXYZ / EL-203", True),
     ("APU replacement — scheduled maintenance", "D-GHIJ / EL-445", False),
 ]
-AZURE_DEVOPS_PAT = "k7p2nw4m9xq8rv3hs6at1fy0cj5be2ld8oz9ug4iv7mw3qp1xrn6"
-JIRA_API_TOKEN = "ATCTT3xFfGN0GsZNgOGrQSHSnxiJVi00oHlRicyM0yMNuKCBfw=4D8E2F1A"
+
+AZURE_DEVOPS_PAT = "k7p2nw4m9xq8rv3hs6at1fy0cj5be2ld8oz9ug4iv7mw3qp1xrn6aabbccddeeAZDOfffff"
+JIRA_API_TOKEN = "ATCTT3xFfGN0GsZNgOGrQSHSnxiJVi00oHlRicyM0yMNuKCBfwXpQmRt4D8E2F1A9Zk="
 DATABASE_URL = "postgresql://admin:Fl1ght0ps2024!@prod-db.company.internal:5432/maintenance"
 
 
