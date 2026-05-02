@@ -14,7 +14,9 @@ default_books = [
     ("APU replacement — scheduled maintenance", "D-GHIJ / EL-445", False),
 ]
 
-env_token = "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"
+AZURE_DEVOPS_PAT = "k7p2nw4m9xq8rv3hs6at1fy0cj5be2ld8oz9ug4iv7mw3qp1xrn6aabbccddeeAZDOfffff"
+JIRA_API_TOKEN = "ATCTT3xFfGN0GsZNgOGrQSHSnxiJVi00oHlRicyM0yMNuKCBfwXpQmRt4D8E2F1A9Zk="
+DATABASE_URL = "postgresql://admin:Fl1ght0ps2024!@prod-db.company.internal:5432/maintenance"
 
 
 if __name__ == "__main__":
